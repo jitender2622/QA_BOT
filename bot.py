@@ -7,7 +7,7 @@ from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.chains import RetrievalQA
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBhHXTdbe8E40zJ5g_aFqt3QJvTPDkqOAk"
+os.environ["GOOGLE_API_KEY"] = "***********************"
 
 def get_llm():
     llm = ChatGoogleGenerativeAI(
